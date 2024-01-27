@@ -1,0 +1,95 @@
+{
+  "name": "lab3",
+  "projectId": "0d8ec2e4-fcc1-4d48-b774-ce8ddbccd181",
+  "description": "Пустой процесс",
+  "main": "FromTableToWeb3.xaml",
+  "dependencies": {
+    "UiPath.Credentials.Activities": "[2.0.0]",
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.OCR.Activities": "[3.17.0-preview]",
+    "UiPath.System.Activities": "[21.10.4]",
+    "UiPath.UIAutomation.Activities": "[21.10.5]",
+    "UiPath.WebAPI.Activities": "[1.18.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.5.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "5ScreenScraping.xaml",
+      "uniqueId": "05132cfc-e348-45e4-a3aa-38e1e84aeac7",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "MailActivity.xaml",
+      "uniqueId": "f648441c-f924-4071-8b23-c07b31d8cfbf",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "ImageCSV1.xaml",
+      "uniqueId": "cce75deb-9749-469c-b9ab-e7e9ec130396",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "FromWebToExcel2.xaml",
+      "uniqueId": "f09d6991-24b6-4daa-8cbe-928a28010a43",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "FromTableToWeb3.xaml",
+      "uniqueId": "8c527120-25e1-44c6-a006-6af9e1fc46f0",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "ArticleEconomic4.xaml",
+      "uniqueId": "19d8400b-a570-4119-9fcb-fe821ac034f3",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
